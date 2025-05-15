@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs every 12 hours
     - cron: "0 */12 * * *"
-  workflow_dispatch:
+  workflow_dispatch:  # Memungkinkan Anda menjalankan workflow secara manual
   push:
     branches:
       - master
@@ -23,11 +23,18 @@ jobs:
         
       - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
+        id: snake-svg
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg?palette=github-dark
-      
+          
+      - name: Show generated files
+        run: |
+          ls -la dist/
+          echo "Files in dist directory:"
+          find dist -type f | sort
+        
       - name: Push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
