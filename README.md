@@ -1,9 +1,16 @@
-# Judul Profil GitHub Anda
+# Format URL untuk animasi ular di README.md
 
-<!-- Informasi profil lainnya -->
+## Format 1: Menggunakan github.com (tampilan kecil/thumbnail)
+![Snake animation](https://github.com/USERNAME/USERNAME/blob/output/snake.svg)
 
-<!-- Snake Animation -->
-![Snake animation](https://github.com/{username}/{username}/blob/output/snake.svg)
+## Format 2: Menggunakan raw.githubusercontent.com (tampilan penuh)
+![Snake animation](https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake.svg)
 
-<!-- Ganti {username} dengan nama pengguna GitHub Anda -->
-<!-- Contoh: https://github.com/johndoe/johndoe/blob/output/snake.svg -->
+## Format 3: Format responsif (untuk mode gelap dan terang)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/USERNAME/USERNAME/output/snake.svg" />
+</picture>
+
+# Ganti semua "USERNAME" dengan nama pengguna GitHub Anda
