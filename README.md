@@ -5,7 +5,7 @@
   <a href="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn&" alt="Visitors Badge"/></a>
   <br/>
   <samp>
-    I'm Firman Maulana Syabani, an Information Systems student and passionate Front-End Developer from Indonesia.
+    I'm Firman Maulana Syabani, an Information Systems student and passionate Web Developer from Indonesia.
   </samp>
   <br/><br/>
 </div>
