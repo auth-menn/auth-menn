@@ -135,9 +135,10 @@
 </div>
 
 ---
-<div align="center" style="font-weight: bold; font-size: 1.5em;">
+<div class="text-center font-bold text-xl">
   Contribution
 </div>
+
 
 <div align="center">
   <picture>
