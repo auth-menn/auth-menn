@@ -135,9 +135,9 @@
 </div>
 
 ---
-<div class="text-center font-bold text-xl">
-  Contribution
-</div>
+
+ ## Contribution
+
 
 
 <div align="center">
