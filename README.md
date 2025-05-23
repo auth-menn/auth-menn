@@ -136,7 +136,7 @@
 
 ---
 
-## 🐍 GitHub Contribution Snake
+## 🐍 Contribution Team
 
 <div align="center">
   <picture>
