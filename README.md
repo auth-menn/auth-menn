@@ -135,9 +135,10 @@
 </div>
 
 ---
-<div align="center">
-##  Contribution
+<div align="center" style="font-weight: bold; font-size: 1.5em;">
+  Contribution
 </div>
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/auth-menn/auth-menn/output/github-contribution-grid-snake-dark.svg" />
