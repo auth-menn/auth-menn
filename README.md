@@ -136,7 +136,7 @@
 
 ---
 
-## 🐍 Contribution Team
+## 🐍 Contribution
 
 <div align="center">
   <picture>
