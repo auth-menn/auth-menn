@@ -136,9 +136,8 @@
 
 ---
 
-<div align="center" style="font-size: 1.8em; font-weight: bold; margin-top: 30px;">
-  🚀 Contribution
-</div>
+  ## 🚀 Contribution
+
 
 
 
