@@ -5,16 +5,18 @@
   <a href="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn&" alt="Visitors Badge"/></a>
   <br/>
   <samp>
-    I'm Firman Maulana Syabani, an Information Systems student and passionate Web Developer.
+    I'm Firman Maulana Syabani, an Information Systems fresh graduate and passionate Fullstack Developer.
   </samp>
   <br/><br/>
 </div>
 
-- 🎓 Mahasiswa Sistem Informasi di [Universitas Internasional Semen Indonesia (UISI)](https://uisi.ac.id)
-- 💼 Web Developer & Content Creator Intern at [Scomptec](https://www.scomptec.com/)
-- 📋 Inventory & Labeling Staff Intern at Universitas Internasional Semen Indonesia
-- 🎨 UI Designer Project Monitoring Sales App (PT Semen Indonesia)
-- 🏆 Participant in GAYATAMA 4 Web App Competition at UNESA
+- 🎓 Fresh Graduate of Information Systems at [Universitas Internasional Semen Indonesia (UISI)](https://uisi.ac.id)  
+- 💼 Fullstack Developer at [DBKlik](https://dbklik.id)  
+- 💻 Former Programmer Intern at [Scomptec](https://www.scomptec.com/)  
+- 📋 Inventory & Labeling Staff Intern at Universitas Internasional Semen Indonesia  
+- 🎨 UI/UX Designer for Recruitment App (B-Hire) & Sales Monitoring (PT Semen Indonesia)  
+- 🏆 Participant in GAYATAMA 4 Web App Competition at UNESA  
+- 📑 Published SINTA 2 Journal Article in [JITK](https://ejournal.nusamandiri.ac.id/index.php/jitk/article/view/6215)  
 
 ---
 
@@ -39,9 +41,7 @@
   <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
   <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
-  <img src="https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=for-the-badge&logo=Adobe%20Photoshop&logoColor=black" alt="Photoshop" />
   <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" alt="Postman" />
   <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="VS Code" />
 </div>
@@ -54,7 +54,7 @@
   <table>
     <tr>
       <td width="50%">
-        <h3 align="center">Men Portofolio</h3>
+        <h3 align="center">Men Portfolio</h3>
         <p align="center">
           <a href="https://kai-dev.my.id" target="_blank">
             <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Website"/>
@@ -63,8 +63,39 @@
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
           </a>
         </p>
-        <p align="center">Portofolio digital dengan Laravel 10 + Tailwind + Vite</p>
+        <p align="center">Personal portfolio website built with Laravel 10 + Tailwind + Vite</p>
       </td>
+      <td width="50%">
+        <h3 align="center">Monitoring Inventory</h3>
+        <p align="center">
+          <a href="#" target="_blank">
+            <img src="https://img.shields.io/badge/Project-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Project"/>
+          </a>
+        </p>
+        <p align="center">Web-based equipment loan & material usage monitoring system (Laravel 12)</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <h3 align="center">Attendance System</h3>
+        <p align="center">
+          <a href="#" target="_blank">
+            <img src="https://img.shields.io/badge/Project-FFD43B?style=for-the-badge&logo=javascript&logoColor=black" alt="Project"/>
+          </a>
+        </p>
+        <p align="center">Attendance system using camera + GPS for accuracy, with admin dashboard</p>
+      </td>
+      <td width="50%">
+        <h3 align="center">OmniChannel (Kilbee)</h3>
+        <p align="center">
+          <a href="#" target="_blank">
+            <img src="https://img.shields.io/badge/Project-0A66C2?style=for-the-badge&logo=laravel&logoColor=white" alt="Project"/>
+          </a>
+        </p>
+        <p align="center">Multi-tenant sales integration system (Shopee, Tokopedia, TikTok, Lazada, Blibli)</p>
+      </td>
+    </tr>
+    <tr>
       <td width="50%">
         <h3 align="center">GAYATAMA 4 Web App</h3>
         <p align="center">
@@ -72,27 +103,16 @@
             <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
           </a>
         </p>
-        <p align="center">Front-end aplikasi marketplace, kompetisi di UNESA</p>
+        <p align="center">Marketplace prototype for competition at UNESA, built with Laravel + React</p>
       </td>
-    </tr>
-    <tr>
       <td width="50%">
-        <h3 align="center">Monitoring Sales Dashboard</h3>
+        <h3 align="center">B-Hire Recruitment App</h3>
         <p align="center">
           <a href="#" target="_blank">
-            <img src="https://img.shields.io/badge/Project-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Project"/>
+            <img src="https://img.shields.io/badge/Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
           </a>
         </p>
-        <p align="center">Proyek nyata dari PT Semen Indonesia, berperan sebagai UI Designer</p>
-      </td>
-      <td width="50%">
-        <h3 align="center">Scomptec Website</h3>
-        <p align="center">
-          <a href="https://www.scomptec.com/" target="_blank">
-            <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Website"/>
-          </a>
-        </p>
-        <p align="center">Menambah fitur log panggilan & media partner pada website internal perusahaan</p>
+        <p align="center">UI/UX prototype for recruitment application in Figma</p>
       </td>
     </tr>
   </table>
@@ -131,13 +151,12 @@
 ### ✨ Let's Connect!
 
 <div align="center">
-  <p>I'm open to collaboration, internship opportunities, and exciting front-end or Laravel-based web projects. Feel free to reach out!</p>
+  <p>I'm open to collaboration, full-time opportunities, and exciting web development projects (Laravel & React based). Feel free to reach out!</p>
 </div>
 
 ---
 
-  ## 🚀 Contribution
-
+## 🚀 Contribution
 
 <div align="center">
   <picture>
