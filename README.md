@@ -154,7 +154,7 @@
   <a href="https://github.com/auth-menn" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://kai-dev.my.id" target="_blank">
+  <a href="https://auth-men.my.id" target="_blank">
     <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white" alt="Website" />
   </a>
 </div>
