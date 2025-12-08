@@ -4,7 +4,7 @@
   <a href="https://github.com/auth-menn" target="_blank"><img src="https://img.shields.io/github/followers/auth-menn?style=social" alt="GitHub Followers"/></a>
   <a href="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn&" alt="Visitors Badge"/></a>
   <br/><br/>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Fullstack+Developer;Laravel+%2B+React+Specialist;UI%2FUX+Enthusiast;Building+Digital+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Fullstack+Developer;UI%2FUX+Enthusiast;Building+Digital+Solutions" alt="Typing SVG" />
 </div>
 
 ## 👨‍💻 About Me
