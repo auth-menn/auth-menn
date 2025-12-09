@@ -253,5 +253,5 @@ Specializing in **Laravel backend** and **React + TypeScript frontend** developm
   
   ### ⭐ Star my repositories if you find them useful!
   
-  <sub>Built with ❤️ by Firman Maulana Syabani</sub>
+  <sub>auth by Firman Maulana Syabani</sub>
 </div>
