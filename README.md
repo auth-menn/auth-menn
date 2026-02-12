@@ -1,25 +1,3 @@
-# Hi there, I'm Firman! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
-
-<div align="center">
-  <a href="https://github.com/auth-menn" target="_blank"><img src="https://img.shields.io/github/followers/auth-menn?style=social" alt="GitHub Followers"/></a>
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn&" alt="Visitors Badge"/></a>
-  <br/><br/>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Fullstack+Developer;UI%2FUX+Enthusiast;Building+Digital+Solutions" alt="Typing SVG" />
-</div>
-
-## 👨‍💻 About Me
-
-```typescript
-const firman = {
-    title: "Information Systems Graduate & Fullstack Developer",
-    location: "Gresik, East Java, Indonesia",
-    education: "Bachelor of Information Systems - UISI (2021-2025)",
-    specialization: ["Laravel", "React", "TypeScript", "Next.js"],
-    focus: "Building scalable web applications and intuitive user experiences",
-    currentStatus: "Open for collaboration and full-time opportunities"
-};
-```
-
 I'm passionate about creating efficient, user-friendly web applications. With hands-on experience in system management and full-stack development, I combine technical expertise with a keen eye for UI/UX design to deliver comprehensive digital solutions.
 
 ---
@@ -200,60 +178,57 @@ SMK Semen Gresik | June 2018 - June 2021
 - 📖 Participant in national seminars and webinars on web development and UI/UX design
 
 ---
+
 ## 📊 GitHub Statistics
 
 <div align="center">
+  
+  <!-- GitHub Stats & Top Languages - Side by Side -->
+  <p align="center">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=auth-menn&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=bd93f9&text_color=f8f8f2" />
+    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=auth-menn&layout=compact&langs_count=6&theme=dracula&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=f8f8f2" />
+  </p>
 
-  <!-- Main Stats -->
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api?username=auth-menn&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true&cache_seconds=1800" />
+  <!-- Streak Stats -->
+  <p align="center">
+    <img src="https://streak-stats.demolab.com?user=auth-menn&theme=dracula&hide_border=true&background=0d1117&ring=bd93f9&fire=bd93f9&currStreakLabel=bd93f9" />
+  </p>
 
-  <!-- Top Languages -->
-  <img height="180em"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=auth-menn&layout=compact&langs_count=8&theme=dracula&hide_border=true&cache_seconds=1800" />
+  <!-- Activity Graph -->
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=auth-menn&theme=dracula&hide_border=true&bg_color=0d1117&color=bd93f9&line=bd93f9&point=f8f8f2&area=true&area_color=bd93f9" />
 
-  <br/><br/>
-
-  <!-- Streak Stats (Updated Version) -->
-  <img
-    src="https://streak-stats.demolab.com?user=auth-menn&theme=dracula&hide_border=true" />
+  <!-- GitHub Trophies -->
+  <p align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=auth-menn&theme=dracula&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=4&rank=SSS,SS,S,AAA,AA,A" />
+  </p>
 
 </div>
 
+<!-- Detailed Stats Cards -->
+<details>
+<summary><b>📈 More Detailed Statistics</b></summary>
 <br/>
 
-<!-- Activity Graph -->
-<div align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=auth-menn&theme=dracula&hide_border=true&area=true" />
-</div>
-
-<br/>
-
-<!-- GitHub Trophy -->
-<div align="center">
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=auth-menn&theme=dracula&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
-</div>
-
-<br/>
-
-<!-- Profile Summary Cards -->
 <div align="center">
 
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=auth-menn&theme=dracula" />
+  <!-- Profile Details -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=auth-menn&theme=dracula" />
 
   <br/>
 
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=auth-menn&theme=dracula" />
+  <!-- Language Stats - Side by Side -->
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=auth-menn&theme=dracula" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=auth-menn&theme=dracula" />
 
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=auth-menn&theme=dracula" />
+  <br/>
+
+  <!-- Commit Stats - Side by Side -->
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=auth-menn&theme=dracula" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=auth-menn&theme=dracula&utcOffset=7" />
 
 </div>
 
+</details>
 
 ---
 
