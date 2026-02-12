@@ -200,17 +200,60 @@ SMK Semen Gresik | June 2018 - June 2021
 - 📖 Participant in national seminars and webinars on web development and UI/UX design
 
 ---
-
 ## 📊 GitHub Statistics
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=auth-menn&theme=dracula&hide_border=true&mode=weekly" alt="GitHub Streak" />
-  </a>
+
+  <!-- Main Stats -->
+  <img height="180em"
+    src="https://github-readme-stats.vercel.app/api?username=auth-menn&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true&cache_seconds=1800" />
+
+  <!-- Top Languages -->
+  <img height="180em"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=auth-menn&layout=compact&langs_count=8&theme=dracula&hide_border=true&cache_seconds=1800" />
+
   <br/><br/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=auth-menn&show_icons=true&count_private=true&theme=dracula&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=auth-menn&layout=compact&theme=dracula&hide_border=true" />
+
+  <!-- Streak Stats (Updated Version) -->
+  <img
+    src="https://streak-stats.demolab.com?user=auth-menn&theme=dracula&hide_border=true" />
+
 </div>
+
+<br/>
+
+<!-- Activity Graph -->
+<div align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=auth-menn&theme=dracula&hide_border=true&area=true" />
+</div>
+
+<br/>
+
+<!-- GitHub Trophy -->
+<div align="center">
+  <img
+    src="https://github-profile-trophy.vercel.app/?username=auth-menn&theme=dracula&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
+</div>
+
+<br/>
+
+<!-- Profile Summary Cards -->
+<div align="center">
+
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=auth-menn&theme=dracula" />
+
+  <br/>
+
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=auth-menn&theme=dracula" />
+
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=auth-menn&theme=dracula" />
+
+</div>
+
 
 ---
 
