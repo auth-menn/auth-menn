@@ -1,3 +1,25 @@
+# Hi there, I'm Firman! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
+
+<div align="center">
+  <a href="https://github.com/auth-menn" target="_blank"><img src="https://img.shields.io/github/followers/auth-menn?style=social" alt="GitHub Followers"/></a>
+  <a href="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn&" alt="Visitors Badge"/></a>
+  <br/><br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Fullstack+Developer;UI%2FUX+Enthusiast;Building+Digital+Solutions" alt="Typing SVG" />
+</div>
+
+## 👨‍💻 About Me
+
+```typescript
+const firman = {
+    title: "Information Systems Graduate & Fullstack Developer",
+    location: "Gresik, East Java, Indonesia",
+    education: "Bachelor of Information Systems - UISI (2021-2025)",
+    specialization: ["Laravel", "React", "TypeScript", "Next.js"],
+    focus: "Building scalable web applications and intuitive user experiences",
+    currentStatus: "Open for collaboration and full-time opportunities"
+};
+```
+
 I'm passionate about creating efficient, user-friendly web applications. With hands-on experience in system management and full-stack development, I combine technical expertise with a keen eye for UI/UX design to deliver comprehensive digital solutions.
 
 ---
@@ -178,7 +200,6 @@ SMK Semen Gresik | June 2018 - June 2021
 - 📖 Participant in national seminars and webinars on web development and UI/UX design
 
 ---
-
 ## 📊 GitHub Statistics
 
 <div align="center">
@@ -229,6 +250,7 @@ SMK Semen Gresik | June 2018 - June 2021
 </div>
 
 </details>
+
 
 ---
 
