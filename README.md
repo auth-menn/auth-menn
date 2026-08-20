@@ -85,34 +85,30 @@ Beyond development, I also have hands-on experience in IT asset management, tech
 
 <div align="center">
 
-### Frontend Development
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+### Languages & Frameworks
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-
-### Backend Development
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### Styling & Design
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
+### Database
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
 ### Tools & Platforms
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-
-### Other Skills
-`Performance Dashboards` · `Cash Management` · `SEO` · `System Analysis` · `Web Performance Optimization`
 
 </div>
 
@@ -124,22 +120,22 @@ Beyond development, I also have hands-on experience in IT asset management, tech
 <tr>
 <td width="50%">
 
-### 🛍️ Kilbee - OmniChannel Platform
-**Laravel 12 | JavaScript | Multi-Tenant**
+### 🗂️ Mappsys
+**Internal Company Application (Fullstack) · PHP Native | Bootstrap**
 
-Multi-marketplace integration system connecting Shopee, Tokopedia, TikTok Shop, Lazada, and Blibli in one unified dashboard. Features API integration, automated inventory sync, and centralized order management.
+Developed and maintained an internal company web application using native PHP with a Bootstrap-based frontend.
 
-**Live:** [klibee.dbklik.co.id](https://klibee.dbklik.co.id)
+**Jan. 2026 - Present**
 
 </td>
 <td width="50%">
 
-### 🏢 Nasibungkusku - Company Profile
-**Laravel | TypeScript | React | Tailwind | GSAP**
+### 📦 J&T Cargo Wonokromo
+**Company Profile Website · JavaScript**
 
-Professional company profile website with a dynamic CMS dashboard for content management, smooth GSAP animations, and fully responsive design.
+Developed a company profile website for J&T Cargo Wonokromo.
 
-**Live:** [nasibungkusku.or.id](https://nasibungkusku.or.id)
+**Live:** [jntcargowonokromo.web.id](https://jntcargowonokromo.web.id/) · 2026
 
 </td>
 </tr>
@@ -147,22 +143,114 @@ Professional company profile website with a dynamic CMS dashboard for content ma
 <tr>
 <td width="50%">
 
-### 👔 B-Hire Recruitment App
-**UI/UX Design | Figma**
+### 💰 Cashier System
+**Financial Management System (Fullstack) · React | Inertia.js | Laravel**
 
-End-to-end recruitment application designed for Santos and PT Cahaya Utama, streamlining hiring from applicant registration to final selection.
+Built a cashier system for transaction entry and financial management, complete with a performance dashboard.
 
-**Live:** [rekrutmen-cahayautama.com](https://rekrutmen-cahayautama.com)
+**2026**
 
 </td>
+<td width="50%">
+
+### 🏢 Blimbing Digital
+**Company Profile Website (Fullstack) · Laravel | React | Inertia.js | SEO**
+
+Developed a company profile website with Laravel and React Inertia, including SEO optimization.
+
+**Live:** [blimbing.id](https://blimbing.id/) · 2026
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🏢 Nasibungkusku
+**Company Profile (Fullstack) · Laravel | TypeScript | React | Tailwind CSS | GSAP**
+
+Created a professional company profile with a CMS dashboard for managing content, enhanced with GSAP animations for smooth interactions.
+
+**Live:** [nasibungkusku.or.id](https://nasibungkusku.or.id) · Nov. 2025
+
+</td>
+<td width="50%">
+
+### 👔 B-Hire
+**Recruitment Application (UI/UX Designer) · Figma | UI/UX Design | Prototyping**
+
+Designed a recruitment application for companies such as Santos and PT Cahaya Utama, supporting end-to-end recruitment for HR staff and applicants.
+
+**Live:** [rekrutmen-cahayautama.com](https://rekrutmen-cahayautama.com) · Jun. 2025
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🛍️ Klibee
+**Sales Integration System (Fullstack) · Laravel | PHP | JavaScript | API Integration**
+
+Developed and maintained a sales channel integration platform (Shopee, Tokopedia, TikTok Shop, Lazada, Blibli) in one dashboard, with API integration and optimized database queries.
+
+**Live:** [klibee.dbklik.co.id](https://klibee.dbklik.co.id) · Apr. 2025 - Okt. 2025
+
+</td>
+<td width="50%">
+
+### 🔗 OmniChannel
+**Sales Integration System (Fullstack) · Laravel | PHP | JavaScript | Multi-tenant**
+
+Responsible for frontend (responsive landing page) and backend (multi-tenant support) of a comprehensive sales integration platform.
+
+**Apr. 2025 - Okt. 2025**
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### ✅ Attendance System
+**Freelance Project (Fullstack) · Laravel | PHP | JavaScript | GPS | Camera**
+
+Developed an attendance system using camera and GPS technology for data accuracy, with an admin dashboard for managing records, students, and users.
+
+**May. 2025**
+
+</td>
+<td width="50%">
+
+### 📦 Monitoring Inventory
+**Freelance Project (Fullstack) · Laravel | PHP | JavaScript | Responsive**
+
+Web-based application for monitoring equipment loans and material usage at SMK XYZ's computer lab, responsive across desktop and mobile.
+
+**Apr. 2025 - May. 2025**
+
+</td>
+</tr>
+
+<tr>
 <td width="50%">
 
 ### 💼 Men Portfolio
-**Laravel 10 | Tailwind | Vite**
+**Personal Portfolio Website · Laravel | Tailwind | Vite | PHP | JavaScript**
 
-Personal portfolio website showcasing experience, technical skills, and project highlights.
+Personal portfolio website showcasing skills, experience, and completed projects, fully responsive across devices.
 
-**Live:** [auth-men.my.id](https://auth-men.my.id) | [GitHub](https://github.com/auth-menn/portfolio)
+**Live:** [auth-men.my.id](https://auth-men.my.id/) · Mar. 2025
+
+</td>
+<td width="50%">
+
+### 📊 Monitoring Sales
+**Sales Monitoring (UI/UX Designer) · Figma | UI/UX Design | Academic Project**
+
+Academic project with PT Semen Indonesia. Designed UI/UX interfaces for a cement sales monitoring system.
+
+**Okt. 2024 - Feb. 2025**
 
 </td>
 </tr>
@@ -170,18 +258,22 @@ Personal portfolio website showcasing experience, technical skills, and project 
 <tr>
 <td width="50%">
 
-### 📊 Sales Monitoring System
-**UI/UX Design | Figma**
+### 🛒 GAYATAMA 4
+**Marketplace Application (Frontend) · Laravel | React | JavaScript | AR Feature**
 
-Academic collaboration with PT Semen Indonesia (Persero) Tbk. UI/UX for a cement sales monitoring dashboard focused on data visualization.
+Marketplace prototype for the GAYATAMA competition at Universitas Negeri Surabaya, implementing Homepage, Store, Product Details, Shipping Address, and Transactions.
+
+**Sept. 2024 - Okt. 2024**
 
 </td>
 <td width="50%">
 
-### 📦 Inventory Monitoring System
-**Laravel 12 | PHP 8.3 | JavaScript**
+### 🎓 EDU
+**Internal Company App (Fullstack) · Laravel | PHP | JavaScript**
 
-Web-based application for an SMK computer lab to monitor equipment loans and material usage, with real-time tracking and reporting.
+Training scheduling application for Scomptec with a Call Log feature to gather feedback and suggestions.
+
+**Des. 2023 - Feb. 2024**
 
 </td>
 </tr>
@@ -189,24 +281,32 @@ Web-based application for an SMK computer lab to monitor equipment loans and mat
 <tr>
 <td width="50%">
 
-### ✅ Smart Attendance System
-**Laravel 9 | PHP 8.3 | JavaScript**
+### 🗓️ Cuti-Markgov
+**Internal Company App (Fullstack) · Laravel | PHP**
 
-Camera- and GPS-based attendance system for identity verification, with an admin dashboard for centralized monitoring.
+Internal web application for attendance, leave requests, and daily reporting at Scomptec.
+
+**Des. 2023 - Feb. 2024**
 
 </td>
 <td width="50%">
 
-### 🛒 GAYATAMA 4 - Marketplace App
-**Laravel 9 | React | JavaScript**
+### 🏢 Company Profile (Scomptec)
+**Internal Company App (Fullstack) · Laravel | PHP**
 
-Competition entry for UNESA's GAYATAMA 4 event; marketplace prototype featuring a planned AR "Virtual Try-On" capability.
+Upgraded PHP version to improve system performance and compatibility.
 
-[GitHub Repository](https://github.com/auth-menn/gayatama)
+**Des. 2023 - Feb. 2024**
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+**16 Total Projects** · **Timeline: 2023 - 2026**
+
+</div>
 
 ---
 
