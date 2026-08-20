@@ -25,7 +25,7 @@ const firman = {
 };
 ```
 
-I'm an Information Systems graduate from Universitas Internasional Semen Indonesia (UISI), passionate about software development, web technologies, and digital innovation. I enjoy working across both front-end and back-end development — building applications that function effectively and deliver a seamless user experience.
+I'm an Information Systems graduate from Universitas Internasional Semen Indonesia (UISI), passionate about software development, web technologies, and digital innovation. I enjoy working across both front-end and back-end development | building applications that function effectively and deliver a seamless user experience.
 
 Beyond development, I also have hands-on experience in IT asset management, technical support, and system analysis from my current role at PT. Royal Inti Mandiri Abadi (RIMA Group).
 
@@ -73,9 +73,9 @@ Beyond development, I also have hands-on experience in IT asset management, tech
 <details>
 <summary><b>🧑‍💻 Freelance Software Development Projects</b></summary>
 
-- **Nasibungkusku Company Profile** (May 2025 - Dec 2025) — Company profile website for a humanitarian organization, presenting mission, vision, programs, and impact achievements
-- **Smart Attendance System** (May 2025) — Camera & GPS-based attendance system with admin dashboard for real-time monitoring
-- **Inventory Monitoring System** (Apr - May 2025) — Laravel-based tool borrowing/returning system for SMK XYZ with automatic late-return flagging
+- **Nasibungkusku Company Profile** (May 2025 - Dec 2025) | Company profile website for a humanitarian organization, presenting mission, vision, programs, and impact achievements
+- **Smart Attendance System** (May 2025) | Camera & GPS-based attendance system with admin dashboard for real-time monitoring
+- **Inventory Monitoring System** (Apr - May 2025) | Laravel-based tool borrowing/returning system for SMK XYZ with automatic late-return flagging
 
 </details>
 
@@ -312,7 +312,7 @@ Upgraded PHP version to improve system performance and compatibility.
 
 ## 🎓 Education & Certifications
 
-**Bachelor of Engineering — Information Systems Security**
+**Bachelor of Engineering | Information Systems Security**
 Universitas Internasional Semen Indonesia (UISI) | July 2021 - March 2025
 
 **Software Engineering**
@@ -330,8 +330,8 @@ SMK Semen Gresik | June 2018 - June 2021
 - 📖 Participant in national seminars and webinars on web development and UI/UX design
 
 ### 🌐 Languages
-- Indonesian — Full Professional
-- English — Elementary
+- Indonesian | Full Professional
+- English | Elementary
 
 ---
 
