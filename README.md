@@ -1,48 +1,83 @@
-# Hi there, I'm Firman! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/> 
+# Hi there, I'm Firman! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 
 <div align="center">
   <a href="https://github.com/auth-menn" target="_blank"><img src="https://img.shields.io/github/followers/auth-menn?style=social" alt="GitHub Followers"/></a>
   <a href="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn" target="_blank"><img src="https://visitor-badge.laobi.icu/badge?page_id=auth-menn.auth-menn&" alt="Visitors Badge"/></a>
   <br/><br/>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Fullstack+Developer;UI%2FUX+Enthusiast;Building+Digital+Solutions" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=IT+Developer+%40+RIMA+Group;Fullstack+Developer;UI%2FUX+Enthusiast;Building+Digital+Solutions" alt="Typing SVG" />
 </div>
 
 ## 👨‍💻 About Me
 
 ```typescript
 const firman = {
-    title: "Information Systems Graduate & Fullstack Developer",
+    title: "IT Developer at RIMA Group | East Java Distribution Partner of Indocement",
     location: "Gresik, East Java, Indonesia",
-    education: "Bachelor of Information Systems - UISI (2021-2025)",
-    specialization: ["Laravel", "React", "TypeScript", "Next.js"],
-    focus: "Building scalable web applications and intuitive user experiences",
-    currentStatus: "Open for collaboration and full-time opportunities"
+    education: "Bachelor of Engineering, Information Systems Security - UISI (2021-2025)",
+    stack: {
+        frontend: ["React.js", "TypeScript", "Next.js", "Tailwind CSS", "Bootstrap"],
+        backend: ["Laravel (PHP)", "Node.js", "REST API"],
+        database: ["MySQL", "PostgreSQL"],
+        tools: ["Git", "GitHub", "Figma", "Postman", "VS Code"]
+    },
+    focus: "Building scalable, user-friendly full-stack web applications",
+    currentStatus: "Open for collaboration and new opportunities"
 };
 ```
 
-I'm passionate about creating efficient, user-friendly web applications. With hands-on experience in system management and full-stack development, I combine technical expertise with a keen eye for UI/UX design to deliver comprehensive digital solutions.
+I'm an Information Systems graduate from Universitas Internasional Semen Indonesia (UISI), passionate about software development, web technologies, and digital innovation. I enjoy working across both front-end and back-end development — building applications that function effectively and deliver a seamless user experience.
+
+Beyond development, I also have hands-on experience in IT asset management, technical support, and system analysis from my current role at PT. Royal Inti Mandiri Abadi (RIMA Group).
 
 ---
 
 ## 💼 Professional Experience
 
-### 🚀 Fullstack Developer | **DBKlik** | Surabaya
-**April 2025 - October 2025**
-- Designed and developed responsive, user-friendly landing pages
-- Collaborated with analysts to ensure application features met business requirements
-- Built multi-tenant OmniChannel platforms integrating major marketplaces (Shopee, Tokopedia, TikTok Shop, Lazada, Blibli)
+### 🖥️ IT Developer | **PT. Royal Inti Mandiri Abadi (RIMA Group)** | Surabaya
+**January 2026 - Present**
+- Managed company IT assets: procurement tracking, inventory control, maintenance scheduling, and lifecycle management
+- Delivered technical support to employees, diagnosing and resolving hardware, software, and network issues
+- Developed and enhanced web-based applications using modern frameworks to support internal business processes
+- Participated in system analysis, development, testing, deployment, and maintenance of enterprise applications
+- Maintained databases and system integrations to improve data accuracy and efficiency
+- Produced technical documentation on IT infrastructure and software development activities
+- Supported digital transformation initiatives to automate manual processes
 
-### 💻 Programmer | **Scomptec** | Surabaya  
+### 🚀 Full Stack Developer / Frontend Developer | **DB Klik** | Surabaya
+**April 2025 - October 2025**
+- Developed back-end and optimized database queries for a multi-tenant OmniChannel platform
+- Integrated major marketplaces (Shopee, Tokopedia, TikTok Shop, Lazada, Blibli) into one unified dashboard
+- Built responsive, user-friendly landing pages and supported Open API/ERP integration for scalable operations
+
+### 🎨 Freelance Web Designer | **Blimbing Digital** | Gresik
+**June 2025 (1 month)**
+- Designed the UI/UX for **B-Hire**, an end-to-end recruitment platform (registration to final selection)
+
+### 🖌️ UI Designer | **SIG (Semen Indonesia Group)** | Gresik
+**October 2024 - February 2025**
+- Designed dashboard interfaces for three user roles (Sales, Chief Marketing, Super Admin) as part of the Advanced IT Project Simulation (SPTIL) course
+
+### 💻 Content Editor / Web Developer | **Scomptec CV** | Surabaya
 **December 2023 - February 2024**
 - Managed and updated content for internal web-based applications
-- Designed features to support company's operational objectives
 - Developed training scheduling and attendance management systems
 
-### 📦 Inventory & Labeling Staff | **UISI** | Gresik
+### 📦 Inventory Officer | **UISI** | Gresik
 **March 2023 - April 2023**
-- Managed inventory recording and labeling processes
-- Updated and maintained inventory management systems
+- Managed inventory recording, labeling, and system maintenance
 - Compiled daily, weekly, and monthly operational reports
+
+### 🎬 Set Designer | **Horison GKB Gresik**
+**January 2020 - February 2020**
+
+<details>
+<summary><b>🧑‍💻 Freelance Software Development Projects</b></summary>
+
+- **Nasibungkusku Company Profile** (May 2025 - Dec 2025) — Company profile website for a humanitarian organization, presenting mission, vision, programs, and impact achievements
+- **Smart Attendance System** (May 2025) — Camera & GPS-based attendance system with admin dashboard for real-time monitoring
+- **Inventory Monitoring System** (Apr - May 2025) — Laravel-based tool borrowing/returning system for SMK XYZ with automatic late-return flagging
+
+</details>
 
 ---
 
@@ -61,7 +96,9 @@ I'm passionate about creating efficient, user-friendly web applications. With ha
 ### Backend Development
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ### Styling & Design
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -73,6 +110,9 @@ I'm passionate about creating efficient, user-friendly web applications. With ha
 ![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+
+### Other Skills
+`Performance Dashboards` · `Cash Management` · `SEO` · `System Analysis` · `Web Performance Optimization`
 
 </div>
 
@@ -87,7 +127,7 @@ I'm passionate about creating efficient, user-friendly web applications. With ha
 ### 🛍️ Kilbee - OmniChannel Platform
 **Laravel 12 | JavaScript | Multi-Tenant**
 
-Multi-marketplace integration system connecting Shopee, Tokopedia, TikTok Shop, Lazada, and Blibli in one unified dashboard. Features include API integration, automated inventory sync, and centralized order management.
+Multi-marketplace integration system connecting Shopee, Tokopedia, TikTok Shop, Lazada, and Blibli in one unified dashboard. Features API integration, automated inventory sync, and centralized order management.
 
 **Live:** [klibee.dbklik.co.id](https://klibee.dbklik.co.id)
 
@@ -97,7 +137,7 @@ Multi-marketplace integration system connecting Shopee, Tokopedia, TikTok Shop, 
 ### 🏢 Nasibungkusku - Company Profile
 **Laravel | TypeScript | React | Tailwind | GSAP**
 
-Professional company profile website with dynamic CMS dashboard for content management. Features smooth GSAP animations and fully responsive design for optimal viewing on all devices.
+Professional company profile website with a dynamic CMS dashboard for content management, smooth GSAP animations, and fully responsive design.
 
 **Live:** [nasibungkusku.or.id](https://nasibungkusku.or.id)
 
@@ -110,7 +150,7 @@ Professional company profile website with dynamic CMS dashboard for content mana
 ### 👔 B-Hire Recruitment App
 **UI/UX Design | Figma**
 
-End-to-end recruitment application designed for Santos and PT Cahaya Utama. Streamlines the entire hiring process from applicant registration to final selection with intuitive interfaces for both HR and candidates.
+End-to-end recruitment application designed for Santos and PT Cahaya Utama, streamlining hiring from applicant registration to final selection.
 
 **Live:** [rekrutmen-cahayautama.com](https://rekrutmen-cahayautama.com)
 
@@ -120,7 +160,7 @@ End-to-end recruitment application designed for Santos and PT Cahaya Utama. Stre
 ### 💼 Men Portfolio
 **Laravel 10 | Tailwind | Vite**
 
-Personal portfolio website showcasing professional experience, technical skills, and project highlights. Built with modern web technologies and optimized for performance.
+Personal portfolio website showcasing experience, technical skills, and project highlights.
 
 **Live:** [auth-men.my.id](https://auth-men.my.id) | [GitHub](https://github.com/auth-menn/portfolio)
 
@@ -133,7 +173,7 @@ Personal portfolio website showcasing professional experience, technical skills,
 ### 📊 Sales Monitoring System
 **UI/UX Design | Figma**
 
-Academic collaboration project with PT Semen Indonesia (Persero) Tbk. Designed comprehensive UI/UX for cement sales monitoring system with focus on data visualization and operational efficiency.
+Academic collaboration with PT Semen Indonesia (Persero) Tbk. UI/UX for a cement sales monitoring dashboard focused on data visualization.
 
 </td>
 <td width="50%">
@@ -141,7 +181,7 @@ Academic collaboration project with PT Semen Indonesia (Persero) Tbk. Designed c
 ### 📦 Inventory Monitoring System
 **Laravel 12 | PHP 8.3 | JavaScript**
 
-Web-based application for SMK computer lab to monitor equipment loans and material usage. Features responsive design, real-time tracking, and comprehensive reporting dashboard.
+Web-based application for an SMK computer lab to monitor equipment loans and material usage, with real-time tracking and reporting.
 
 </td>
 </tr>
@@ -152,7 +192,7 @@ Web-based application for SMK computer lab to monitor equipment loans and materi
 ### ✅ Smart Attendance System
 **Laravel 9 | PHP 8.3 | JavaScript**
 
-Advanced attendance system utilizing camera and GPS technology to ensure data accuracy. Includes comprehensive admin dashboard for managing attendance records, students, and system users.
+Camera- and GPS-based attendance system for identity verification, with an admin dashboard for centralized monitoring.
 
 </td>
 <td width="50%">
@@ -160,7 +200,7 @@ Advanced attendance system utilizing camera and GPS technology to ensure data ac
 ### 🛒 GAYATAMA 4 - Marketplace App
 **Laravel 9 | React | JavaScript**
 
-Competition entry for UNESA's GAYATAMA 4 event. Marketplace prototype featuring planned AR "Virtual Try-On" capability to enhance user shopping experience.
+Competition entry for UNESA's GAYATAMA 4 event; marketplace prototype featuring a planned AR "Virtual Try-On" capability.
 
 [GitHub Repository](https://github.com/auth-menn/gayatama)
 
@@ -170,28 +210,18 @@ Competition entry for UNESA's GAYATAMA 4 event. Marketplace prototype featuring 
 
 ---
 
-## 📚 Additional Projects
-
-<details>
-<summary><b>View More Projects</b></summary>
-
-### Internal Company Applications (Scomptec)
-- **Training Scheduling App** - Laravel-based system with Call Log feature for feedback collection
-- **Company Profile Upgrade** - PHP version migration for improved performance
-- **Leave Management System** - Internal application for attendance, leave requests, and daily reporting
-
-</details>
-
----
-
 ## 🎓 Education & Certifications
 
-**Bachelor of Information Systems**  
-Universitas Internasional Semen Indonesia (UISI) | July 2021 - May 2025
+**Bachelor of Engineering — Information Systems Security**
+Universitas Internasional Semen Indonesia (UISI) | July 2021 - March 2025
 
-**Software Engineering**  
-SMK Semen Gresik | June 2018 - June 2021  
+**Software Engineering**
+SMK Semen Gresik | June 2018 - June 2021
 *Awarded Competency Certificate, KKNI Level II in Software Engineering*
+
+### Certifications
+- 📜 Data Analysis: A Practical Introduction for Absolute Beginners
+- 📜 Introduction to Design Thinking
 
 ### Academic Achievements
 - 📄 Published SINTA 2 Journal Article in [JITK](https://doi.org/10.33480/jitk.v11i1.6215) - Journal of Computer Science and Technology
@@ -199,71 +229,61 @@ SMK Semen Gresik | June 2018 - June 2021
 - 🎯 Participant in GAYATAMA 4 Web App Competition at UNESA
 - 📖 Participant in national seminars and webinars on web development and UI/UX design
 
+### 🌐 Languages
+- Indonesian — Full Professional
+- English — Elementary
+
 ---
+
 ## 📊 GitHub Statistics
 
 <div align="center">
-  
-  <!-- GitHub Stats & Top Languages - Side by Side -->
+
   <p align="center">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=auth-menn&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=true&bg_color=0d1117&title_color=bd93f9&icon_color=bd93f9&text_color=f8f8f2" />
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=auth-menn&layout=compact&langs_count=6&theme=dracula&hide_border=true&bg_color=0d1117&title_color=bd93f9&text_color=f8f8f2" />
   </p>
 
-  <!-- Streak Stats -->
   <p align="center">
     <img src="https://streak-stats.demolab.com?user=auth-menn&theme=dracula&hide_border=true&background=0d1117&ring=bd93f9&fire=bd93f9&currStreakLabel=bd93f9" />
   </p>
 
-  <!-- Activity Graph -->
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=auth-menn&theme=dracula&hide_border=true&bg_color=0d1117&color=bd93f9&line=bd93f9&point=f8f8f2&area=true&area_color=bd93f9" />
 
-  <!-- GitHub Trophies -->
   <p align="center">
     <img src="https://github-profile-trophy.vercel.app/?username=auth-menn&theme=dracula&no-frame=true&no-bg=true&margin-w=15&margin-h=15&column=4&rank=SSS,SS,S,AAA,AA,A" />
   </p>
 
 </div>
 
-<!-- Detailed Stats Cards -->
 <details>
 <summary><b>📈 More Detailed Statistics</b></summary>
 <br/>
 
 <div align="center">
-
-  <!-- Profile Details -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=auth-menn&theme=dracula" />
-
   <br/>
-
-  <!-- Language Stats - Side by Side -->
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=auth-menn&theme=dracula" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=auth-menn&theme=dracula" />
-
   <br/>
-
-  <!-- Commit Stats - Side by Side -->
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=auth-menn&theme=dracula" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=auth-menn&theme=dracula&utcOffset=7" />
-
 </div>
 
 </details>
-
 
 ---
 
 ## 🤝 Let's Connect!
 
 <div align="center">
-  
-I'm actively seeking **full-time opportunities** and **exciting collaborations** in web development!  
+
+I'm actively open to **collaboration** and **new opportunities** in web development and IT!
 Specializing in **Laravel backend** and **React + TypeScript frontend** development.
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/Firman-Maulana-Syabani)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/firmanmaulana-syabani)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:auth.menn@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/auth-menn)
 [![Portfolio](https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white)](https://auth-men.my.id)
@@ -290,8 +310,8 @@ Specializing in **Laravel backend** and **React + TypeScript frontend** developm
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=auth-menn&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views" />
-  
+
   ### ⭐ Star my repositories if you find them useful!
-  
+
   <sub>auth by Firman Maulana Syabani</sub>
 </div>
