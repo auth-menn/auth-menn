@@ -393,7 +393,7 @@ Specializing in **Laravel backend** and **React + TypeScript frontend** developm
 
 <br/>
 
-**📧 auth.menn@gmail.com** | **📱 +62 821-4041-5101** | **📍 Gresik, East Java, Indonesia**
+**📧 auth.menn@gmail.com** | **📍 Gresik, East Java, Indonesia**
 
 </div>
 
