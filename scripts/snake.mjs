@@ -207,23 +207,25 @@ function plan(grid, maxLenLimit = MAX_LEN) {
   let L = MIN_LEN;
   let eaten = 0;
 
-  const search = (goal, tmax, accept, avoidLevel = 0) => {
+  const search = (goal, tmax, accept, avoidLevel = 0, maxCross = 0) => {
   const s0 = Q.length - 1;
-  const root = { id: Q[s0], t: 0, parent: null };
+  const root = { id: Q[s0], t: 0, parent: null, x: 0 };
   if (goal(root, s0)) return root;
-  const seen = new Set([root.id * (tmax + 1)]);
+  const KX = maxCross + 1;
+  const seen = new Set([root.id * (tmax + 1) * KX]);
   let frontier = [root];
   for (let t = 1; t <= tmax && frontier.length; t++) {
     const g = s0 + t;
     const next = [];
     for (const n of frontier)
       for (const nb of NB[n.id]) {
-        const key = nb * (tmax + 1) + t;
+        let x = n.x;
+        if (avoidLevel > 0 && pending[nb] === 1 && lvl[nb] !== avoidLevel) {
+          x++;
+          if (x > maxCross) continue; // sel pending non-target = dinding
+        }
+        const key = (nb * (tmax + 1) + t) * KX + x;
         if (seen.has(key)) continue;
-
-        // BARU: sel yang belum dimakan dan levelnya lebih tinggi dari target = dinding
-        if (avoidLevel > 0 && pending[nb] === 1 && lvl[nb] > avoidLevel) continue;
-
         const li = last[nb];
         if (li >= 0 && li >= g - L) continue;
         let blocked = false;
@@ -231,7 +233,7 @@ function plan(grid, maxLenLimit = MAX_LEN) {
           if (m.id === nb) { blocked = true; break; }
         if (blocked) continue;
         seen.add(key);
-        const node = { id: nb, t, parent: n };
+        const node = { id: nb, t, parent: n, x };
         if (goal(node, s0)) {
           if (!accept || accept(node)) return node;
           continue;
@@ -242,6 +244,7 @@ function plan(grid, maxLenLimit = MAX_LEN) {
   }
   return null;
 };
+  
   const chainOf = (node) => {
     const chain = [];
     for (let m = node; m.parent; m = m.parent) chain.push(m.id);
@@ -303,30 +306,41 @@ function plan(grid, maxLenLimit = MAX_LEN) {
 
   // 1) eat: lowest level first, nearest cell first
   let wandered = 0;
-  while (eaten < total && wandered < 400) {
-    let level = 1;
-    while (level <= 4 && left[level] === 0) level++;
-    const goal = (n) => pending[n.id] === 1 && lvl[n.id] === level;
-    const node =
-    search(goal, 60, safe, level) ||
-    search(goal, 250, safe, level) ||
-    search(goal, 60, safe) ||
-    search(goal, 250, safe);
-    if (!node) {
-      if (!wander()) break;
-      wandered++;
-      continue;
-    }
-    append(node);
-    pending[node.id] = 0;
-    left[level]--;
-    eaten++;
-    eatStep[node.id] = Q.length - 1;
-    L = growthAfter(eaten);
-    lens[lens.length - 1] = L;
-  }
+while (eaten < total && wandered < 400) {
+  let lowest = 1;
+  while (lowest <= 4 && left[lowest] === 0) lowest++;
+  let level = lowest;
+  const tryLevel = (lv, mc) =>
+    search((n) => pending[n.id] === 1 && lvl[n.id] === lv, 250, safe, lv, mc);
 
-  // 2) the bite: get the head next to the tail
+  // 1. level terendah lewat jalan bersih
+  let node = tryLevel(lowest, 0);
+  // 2. terkurung? tunda, makan level berikutnya yang bisa dijangkau bersih
+  for (let lv = lowest + 1; lv <= 4 && !node; lv++) {
+    if (left[lv] === 0) continue;
+    node = tryLevel(lv, 0);
+    if (node) level = lv;
+  }
+  // 3. terakhir: menerobos sesedikit mungkin
+  level = node ? level : lowest;
+  for (let mc = 1; mc <= 12 && !node; mc++) node = tryLevel(lowest, mc);
+  if (!node) node = search((n) => pending[n.id] === 1 && lvl[n.id] === lowest, 250, safe);
+
+  if (!node) {
+    if (!wander()) break;
+    wandered++;
+    continue;
+  }
+  append(node);
+  pending[node.id] = 0;
+  left[level]--;
+  eaten++;
+  eatStep[node.id] = Q.length - 1;
+  L = growthAfter(eaten);
+  lens[lens.length - 1] = L;
+}
+
+    // 2) the bite: get the head next to the tail
   const tailOf = (n, s0, g) => {
     const ti = g - L + 1;
     if (ti <= s0) return Q[ti];
