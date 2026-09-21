@@ -10,7 +10,7 @@ Building scalable, user-friendly web applications.
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/firmanmaulana-syabani)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/firman-maulana-syabani/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:auth.menn@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://auth-men.my.id)
 
