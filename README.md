@@ -12,10 +12,6 @@ Building scalable, user-friendly web applications with Laravel and React.
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:auth.menn@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://auth-men.my.id)
 
-<br/>
-
-<img src="./metrics.isocalendar.svg" alt="Contribution calendar" width="100%" />
-
 </div>
 
 <br/>
@@ -143,5 +139,19 @@ Currently at RIMA Group, I combine software development with IT asset management
 
 **Let's build something together.**
 [auth.menn@gmail.com](mailto:auth.menn@gmail.com) &nbsp;·&nbsp; Gresik, East Java, Indonesia
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="./metrics.isocalendar.svg" alt="Contribution calendar" width="100%" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/auth-menn/auth-menn/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/auth-menn/auth-menn/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/auth-menn/auth-menn/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
 
 </div>
