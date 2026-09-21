@@ -207,38 +207,41 @@ function plan(grid, maxLenLimit = MAX_LEN) {
   let L = MIN_LEN;
   let eaten = 0;
 
-  const search = (goal, tmax, accept) => {
-    const s0 = Q.length - 1;
-    const root = { id: Q[s0], t: 0, parent: null };
-    if (goal(root, s0)) return root;
-    const seen = new Set([root.id * (tmax + 1)]);
-    let frontier = [root];
-    for (let t = 1; t <= tmax && frontier.length; t++) {
-      const g = s0 + t;
-      const next = [];
-      for (const n of frontier)
-        for (const nb of NB[n.id]) {
-          const key = nb * (tmax + 1) + t;
-          if (seen.has(key)) continue;
-          const li = last[nb];
-          if (li >= 0 && li >= g - L) continue; // covered by the body (the tail cell counts as covered)
-          let blocked = false;
-          for (let m = n; m && s0 + m.t >= g - L; m = m.parent)
-            if (m.id === nb) { blocked = true; break; }
-          if (blocked) continue;
-          seen.add(key);
-          const node = { id: nb, t, parent: n };
-          if (goal(node, s0)) {
-            if (!accept || accept(node)) return node;
-            continue; // a rejected target is treated as a wall
-          }
-          next.push(node);
-        }
-      frontier = next;
-    }
-    return null;
-  };
+  const search = (goal, tmax, accept, avoidLevel = 0) => {
+  const s0 = Q.length - 1;
+  const root = { id: Q[s0], t: 0, parent: null };
+  if (goal(root, s0)) return root;
+  const seen = new Set([root.id * (tmax + 1)]);
+  let frontier = [root];
+  for (let t = 1; t <= tmax && frontier.length; t++) {
+    const g = s0 + t;
+    const next = [];
+    for (const n of frontier)
+      for (const nb of NB[n.id]) {
+        const key = nb * (tmax + 1) + t;
+        if (seen.has(key)) continue;
 
+        // BARU: sel yang belum dimakan dan levelnya lebih tinggi dari target = dinding
+        if (avoidLevel > 0 && pending[nb] === 1 && lvl[nb] > avoidLevel) continue;
+
+        const li = last[nb];
+        if (li >= 0 && li >= g - L) continue;
+        let blocked = false;
+        for (let m = n; m && s0 + m.t >= g - L; m = m.parent)
+          if (m.id === nb) { blocked = true; break; }
+        if (blocked) continue;
+        seen.add(key);
+        const node = { id: nb, t, parent: n };
+        if (goal(node, s0)) {
+          if (!accept || accept(node)) return node;
+          continue;
+        }
+        next.push(node);
+      }
+    frontier = next;
+  }
+  return null;
+};
   const chainOf = (node) => {
     const chain = [];
     for (let m = node; m.parent; m = m.parent) chain.push(m.id);
@@ -304,7 +307,11 @@ function plan(grid, maxLenLimit = MAX_LEN) {
     let level = 1;
     while (level <= 4 && left[level] === 0) level++;
     const goal = (n) => pending[n.id] === 1 && lvl[n.id] === level;
-    const node = search(goal, 60, safe) || search(goal, 250, safe);
+    const node =
+    search(goal, 60, safe, level) ||
+    search(goal, 250, safe, level) ||
+    search(goal, 60, safe) ||
+    search(goal, 250, safe);
     if (!node) {
       if (!wander()) break;
       wandered++;
