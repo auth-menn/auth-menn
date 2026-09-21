@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi there, I'm [Firman](https://www.linkedin.com/in/firmanmaulana-syabani)! 👋
+# Hi there, I'm [Firman](https://www.linkedin.com/in/firmanmaulana-syabani)! <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="Waving hand" />
 
 **IT Developer at RIMA Group** &nbsp;·&nbsp; Full Stack Developer &nbsp;·&nbsp; UI/UX Enthusiast
 
@@ -11,6 +11,7 @@ Building scalable, user-friendly web applications with Laravel and React.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/firmanmaulana-syabani)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:auth.menn@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=flat-square&logo=googlechrome&logoColor=white)](https://auth-men.my.id)
+![Profile views](https://komarev.com/ghpvc/?username=auth-menn&label=Profile+views&color=111827&style=flat-square)
 
 </div>
 
