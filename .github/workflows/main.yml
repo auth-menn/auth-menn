@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */3 * * *"      # DIUBAH: tiap 3 jam (sebelumnya sekali sehari)
   workflow_dispatch:
   push:
     branches: [main]
@@ -11,6 +11,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:                    # DITAMBAH: cegah run bentrok
+  group: metrics
+  cancel-in-progress: true
 
 jobs:
   metrics:
@@ -28,6 +32,35 @@ jobs:
           plugin_isocalendar_duration: full-year
           config_timezone: Asia/Jakarta
           committer_message: "chore: update isometric calendar"
+
+      # 2. Profile summary: header, activity, repositories, community
+      - name: Profile summary
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: auth-menn
+          filename: metrics.base.svg
+          base: header, activity, community, repositories
+          base_indepth: yes
+          config_timezone: Asia/Jakarta
+          committer_message: "chore: update profile summary"
+
+      # 3. Most used languages
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: auth-menn
+          filename: metrics.languages.svg
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 15
+          config_timezone: Asia/Jakarta
+          committer_message: "chore: update languages"
 
       # 2. Profile summary: header, activity, repositories, community
       - name: Profile summary
